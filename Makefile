@@ -1,6 +1,6 @@
 GCP_PROJECT=argo-demo-401813
 IMAGE_NAME=surgeprice-estimate-app
-VERSION=1.0.0
+VERSION=2.0.0
 PORT=7213
 build:
 	docker build  -t "${IMAGE_NAME}" .

@@ -41,7 +41,7 @@ function predictSurgePricing() {
     }
 
     // Send a POST request to your Flask API
-    fetch('http://localhost:5000/predict', {
+    fetch('/predict', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
